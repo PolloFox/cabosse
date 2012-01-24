@@ -1,0 +1,4 @@
+div.white-selector {
+    margin-top:-64px;
+    margin-bottom:31px;
+}

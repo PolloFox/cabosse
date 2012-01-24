@@ -1,0 +1,19 @@
+.rounded-corners {
+    behavior: url(/css/border-radius.htc);
+    border-radius:15px;
+}
+div#body-container {
+    margin-top:-20px;
+    padding-top:18px;
+}
+div.menu-elem-content:hover, div.menu-elem-content.selected {
+    padding-bottom:10px;
+}
+div.white-selector {
+    margin-top:-61px;
+/*    margin-bottom:29px;*/
+}
+div.blue-selector {
+    margin-top:-23px;
+    margin-bottom:30px;
+}

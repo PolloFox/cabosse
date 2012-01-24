@@ -1,0 +1,144 @@
+body {
+  background-color: #937b71;
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+.adressebelgique {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFF;
+	line-height: 21px;
+	letter-spacing: 1px;
+	padding-left: 25px;
+}
+.adressecaledonie {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 21px;
+	color: #FFF;
+	letter-spacing: 1px;
+	padding-right: 25px;
+}
+.cadre {
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: none;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #FFF;
+	border-right-color: #FFF;
+	border-bottom-color: #FFF;
+	border-left-color: #FFF;
+  margin:auto;
+}
+td#main_menu {
+  width:950;
+  height:88; 
+}
+table#main_menu {
+   width:100%;
+   height:100%; 
+   border:none;
+   border-spacing:0;
+   padding:0;
+}
+.textecourant {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	line-height: 12pt;
+	color: #37262d;
+	padding: 15px;
+	margin: 0px;
+	float: left;
+	width: 513px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #0099A1;
+}
+.menu {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13pt;
+	font-style: italic;
+	color: #37262d;
+	letter-spacing: 3px;
+	font-weight: bold;
+	border-bottom: none;
+	/*padding-bottom: 10px;*/
+	width: 527px;
+	display: table-cell;
+	height: 57px;
+	padding-top: 26px;
+	padding-left: 30px;
+}
+.sousmenu {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	background-color: #0099A1;
+	color: #37262d;
+	letter-spacing: 1px;
+	line-height: 18pt;
+	/*list-style-position: outside;*/
+	list-style-type: disc;
+}
+.sousmenu a {
+	color: #37262d;
+	text-decoration: none;
+}
+.sousmenu a:hover {
+	color: #FFF;
+}
+/*.sousmenu a:active {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 18px;
+	color: #FFF;
+	text-decoration: none;
+}*/
+td#sous-menu {
+  width:121px;
+  min-width:121px;
+  max-width:121px;
+  height:418px;
+  vertical-align:top;
+  background-color:#a9958d;
+  border-top:1px solid #0099A1;
+}
+a.on {
+	color: #FFF;
+}
+.adressecaledonieOn {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 21px;
+	color: #FFF;
+	letter-spacing: 1px;
+}
+
+ul {
+  margin:0;
+  padding-left:20px;  
+}  
+
+ul#main_menu {
+  height:83px;
+  max-height:83px;
+  overflow:hidden;
+}
+ul#main_menu li {
+  display:inline;
+  list-style-type: none;
+  color:white;
+}
+
+ul#main_menu li.main-menu {
+ margin-left:-4px;
+}
+
+ul#main_menu li.main-menu {
+ margin-bottom:10px;
+}

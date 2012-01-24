@@ -1,0 +1,8 @@
+.rounded-corners {
+    behavior: url(/css/border-radius.htc);
+    border-radius:15px;
+}
+div.blue-selector {
+    margin-top:-23px;
+    margin-bottom:30px;
+}
