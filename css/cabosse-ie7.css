@@ -9,11 +9,3 @@ div#body-container {
 div.menu-elem-content:hover, div.menu-elem-content.selected {
     padding-bottom:10px;
 }
-div.white-selector {
-    margin-top:-61px;
-/*    margin-bottom:29px;*/
-}
-div.blue-selector {
-    margin-top:-23px;
-    margin-bottom:30px;
-}
