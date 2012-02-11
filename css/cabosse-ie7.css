@@ -9,3 +9,27 @@ div#body-container {
 div.menu-elem-content:hover, div.menu-elem-content.selected {
     padding-bottom:10px;
 }
+div.blue-selector {
+    margin-top:-20px;
+}
+div.left-menu {
+    margin-top:-8px;
+}
+ul {
+    margin-left:6px;
+    list-style-type:disc;
+    list-style-position: inside;
+}
+div.main-content-subject {
+    margin:4px 0 0 15px;
+    height:404px;
+}
+div#gallery-container {
+    padding-top:6px;
+}
+div#caption, div.image-title{
+    width:124px;
+}
+ul.thumbs {
+    margin:0 0 0 3px;
+}

@@ -1,0 +1,13 @@
+div.left-menu {
+    padding-right:4px;
+}
+div.main-content-subject {
+    height:431px;
+    width:523px;
+}
+div#gallery-container {
+    padding-top:18px;
+}
+div#caption, div.image-title{
+    width:127px;
+}

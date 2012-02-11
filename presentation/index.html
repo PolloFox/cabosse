@@ -18,7 +18,7 @@
               <div class="white-selector">&#9660;</div>
               <div class="blue-selector">&#9660;</div>
             </div>
-            <div class="menu-elem-text"><a href="#">Pr&eacute;sentation</a></div>
+            <div class="menu-elem-text"><a href="/presentation/index.html">Pr&eacute;sentation</a></div>
           </div>
         </div>
         <div class="menu-elem">
@@ -27,7 +27,7 @@
               <div class="white-selector">&#9660;</div>
               <div class="blue-selector">&#9660;</div>
             </div>
-            <div class="menu-elem-text"><a href="#">Nos produits</a></div>
+            <div class="menu-elem-text"><a href="/produits/index.html">Nos produits</a></div>
           </div>
         </div>
         <div class="menu-elem">
@@ -36,28 +36,57 @@
               <div class="white-selector">&#9660;</div>
               <div class="blue-selector">&#9660;</div>
             </div>
-            <div class="menu-elem-text"><a href="#">Sp&eacute;cial f&ecirc;tes</a></div>
+            <div class="menu-elem-text"><a href="/fetes/index.html">Sp&eacute;cial f&ecirc;tes</a></div>
           </div>
         </div>
         <div class="menu-elem">
           <div class="menu-elem-content">
-            <div class="menu-elem-selector hidden">
+            <div class="menu-elem-selector canada hidden">
               <div class="white-selector">&#9660;</div>
               <div class="blue-selector">&#9660;</div>
             </div>
-            <div class="menu-elem-text"><a href="#">Canada</a></div>
+            <div class="menu-elem-text"><a href="/canada/index.html">Canada</a></div>
           </div>
         </div>
         <div class="menu-elem">
           <div class="menu-elem-content">
-            <div class="menu-elem-selector hidden">
+            <div class="menu-elem-selector contact hidden">
               <div class="white-selector">&#9660;</div>
               <div class="blue-selector">&#9660;</div>
             </div>
-            <div class="menu-elem-text"><a href="#">Contactez-nous</a></div>
+            <div class="menu-elem-text"><a href="/contact/index.html">Contactez-nous</a></div>
           </div>
         </div>
       </div>
+      <div id="main-content" class="rounded-corners">
+        <h1>Pr&eacute;sentation du magasin</h1>
+        <hr />
+        <div class="left-menu">
+          <ul>
+            <li class="selected"><a href="/presentation/index.html">l'historique</a></li>
+            <li><a href="/presentation/atelier.html">l'atelier</a></li>
+            <li><a href="/presentation/magasin.html">le magasin</a></li>
+          </ul>
+        </div>
+        <div class="main-content-subject">
+          <p>En 1970, Robert Matheys transforme une ancienne salle de danse en chocolaterie. Les pralines se vendaient directement &agrave; l'atelier. L'agrandissement du magasin actuel a eu lieu en 1989 et a laiss&eacute; place &agrave; un plus vaste assortiment.</p>
+          <p>La chocolaterie est une entreprise familiale perp&eacute;tu&eacute;e par Odette et ses deux enfants, Marie et Dominique. Ils assurent la fabrication artisanale et la vente des produits, directement de l'atelier au magasin.</p>
+        </div>
+      </div>
     </div>
+    <script type="text/javascript" src="/scripts/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="/scripts/jquery.galleriffic.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('.menu-elem-content').hover(
+          function(){
+            if (!($(this).hasClass('selected'))) {
+              $(this).children('.menu-elem-selector').toggleClass('hidden');
+            }
+          }
+        );
+        return false;
+      });
+    </script>
   </body>
 </html>
