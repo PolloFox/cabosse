@@ -3,14 +3,14 @@ body {
     font-family: 'Gudea', Verdana, sans-serif;
 }
 p {
-    font-size:1em;
+    font-size:10.5pt;
 }
 a {
     text-decoration:none;
     color:white;
 }
 ul {
-    margin:0 0 0 -18px;
+    margin:0 0 0 -4px;
     letter-spacing:1pt;
 }
 ul a {
@@ -113,9 +113,9 @@ div#main-content {
     float:left;
 }
 div#main-content h1 {
-    font-size:1.1em;
+    font-size:12pt;
     font-style:italic;
-    letter-spacing:4pt;
+    letter-spacing:2pt;
     padding:0 0 0 55px;
     margin-bottom:12px;
 }
@@ -166,6 +166,7 @@ div#caption {
     padding:0 3px 0 3px;
     overflow:hidden;
     background-color:#DCD9D7;
+    font-size:10pt;
 }
 div.image-title {
     font-weight:bold;
@@ -186,6 +187,11 @@ div#gallery-container, div#thumbs {
 }
 div#caption, div.image-title {
     width:111px;
+}
+div.caption {
+/*    position:absolute;
+    bottom:0;*/
+    /* Aligner bas */
 }
 div#informations {
     float:left;
@@ -214,12 +220,13 @@ div#practical-informations {
     height:101px;
     padding:0 10px 10px 10px;
     overflow:hidden;
-    font-size:0.8em;
     color:white;
 }
 div#practical-informations p, div#sub-name p {
     margin-top:10px;
     padding-left:10px;
+    font-size:9pt;
+    line-height:14pt;
 }
 div#logo {
     position:absolute;
