@@ -3,11 +3,10 @@ div.left-menu {
 }
 div.main-content-subject {
     height:431px;
-    width:523px;
 }
-div#gallery-container {
-    padding-top:18px;
+div#thumbs li img {
+    margin-top:0.5em;
 }
-div#caption, div.image-title{
-    width:127px;
+div#logo {
+    height:147px;
 }

@@ -2,3 +2,20 @@
     behavior: url(/css/border-radius.htc);
     border-radius:15px;
 }
+.ie-no-corners {
+    border-radius:0;
+}
+div#illustration {
+    background-image:none;
+}
+div#illustration img {
+    height:99.5%;
+    width:100%;
+}
+div#informations div
+{
+    width:17.4em;
+}
+div#informations div#practical-informations {
+    width:20.2em;
+}

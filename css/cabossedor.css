@@ -11,7 +11,7 @@ a {
 }
 ul {
     margin:0 0 0 -18px;
-    letter-spacing:1px;
+    letter-spacing:1pt;
 }
 ul a {
     color:#37262D;
@@ -43,6 +43,7 @@ ul.thumbs li.selected img, ul.thumbs li:hover img {
 }
 div#body-container {
     width:950px;
+    height:588px;
     margin:auto;
     margin-top:-8px;
     padding-top:9px;
@@ -65,6 +66,7 @@ div.menu-elem {
     float:left;
     border-right:2px dashed #323D44;
     text-align:center;
+    font-size:0.95em;
 }
 div.menu-elem, div.menu-elem-content {
     height:74px;
@@ -100,7 +102,6 @@ div.blue-selector {
     color:#0B828A;
     margin-top:-23px;
     text-align:center;
-    -moz-padding-left:1px;
 }
 div#main-content {
     margin-top:9px;
@@ -109,12 +110,14 @@ div#main-content {
     height:486px;
     width:662px;
     color:#37262D;
+    float:left;
 }
 div#main-content h1 {
     font-size:1.1em;
     font-style:italic;
-    letter-spacing:4px;
-    padding:15px 0px 5px 55px;
+    letter-spacing:4pt;
+    padding:0 0 0 55px;
+    margin-bottom:12px;
 }
 div#main-content hr {
     height:1px;
@@ -130,32 +133,131 @@ div.left-menu {
     background-color:#0099A1;
     width:120px;
     padding:2px 6px 2px 0px;
-    font-size:0.9em;
+    font-size:0.85em;
+}
+div.left-menu.no-menu {
+   visibility:hidden;
 }
 div.main-content-subject {
     margin:-1px 0 0 15px;
-    width:521px;
+    padding-right:15px;
+    width:506px;
     height:430px;
     overflow:hidden;
 }
+div.main-content-subject.history p {
+    margin-top:3px;
+    margin-bottom:3px;
+    font-size:0.8em;
+}
+div.main-content-subject.history p:first-child {
+    font-size:1em;
+    font-weight:bold;
+}
 div#gallery-container {
     padding-top:15px;
+    overflow:hidden;
+}
+div#slideshow {
+    margin-left:-4px;
 }
 div#caption {
-    width:124px;
     height:260px;
-    overflow:hidden;
     padding:0 3px 0 3px;
+    overflow:hidden;
     background-color:#DCD9D7;
 }
 div.image-title {
     font-weight:bold;
     margin-bottom:4px;
-    width:124px;
 }
 div#slideshow a img {
     border:0;
 }
 div#thumbs {
+    overflow:hidden;
+    margin-left:-5px;
+}
+div#thumbs ul {
     width:3000px;
+}
+div#gallery-container, div#thumbs {
+    width:510px;
+}
+div#caption, div.image-title {
+    width:111px;
+}
+div#informations {
+    float:left;
+    width:278px;
+    height:597px;
+    overflow:hidden;
+    margin:-84px 0 0 10px;
+}
+div#informations div {
+    width:291px;
+    border: 1px solid white;
+    border-right-style: none;
+    margin-bottom:10px;
+    background-color:#937B71;
+}
+div#sub-name {
+    height:100px;
+    margin-top:73px;
+    padding:9px 0 10px 0;
+}
+div#illustration {
+    height:250px;
+    background:url('/images/house.jpg') top center no-repeat;
+}
+div#practical-informations {
+    height:101px;
+    padding:0 10px 10px 10px;
+    overflow:hidden;
+    font-size:0.8em;
+    color:white;
+}
+div#practical-informations p, div#sub-name p {
+    margin-top:10px;
+    padding-left:10px;
+}
+div#logo {
+    position:absolute;
+    margin-top:-9px;
+    padding-top:9px;
+    margin-left:596px;
+    width:354px;
+    height:148px;
+    z-index:10;
+    background:url('/images/logo.png') no-repeat;
+}
+div#logo p {
+    padding:1px 0 1px 5px;
+    background-color:white;
+    font-size:0.75em;
+    font-weight:bold;
+    letter-spacing:3pt;
+}
+div#logo div {
+    float:right;
+}
+div.links {
+    padding-right:3px;
+}
+div.links ul li {
+    display:inline;
+    font-size:0.75em;
+    margin-right:3px;
+    color:white;
+}
+div.links a {
+    color:#5C4844;
+    font-weight:bold;
+}
+div.links a:hover {
+    color:white;
+}
+div#logo-sub-name {
+    width:240px;
+    margin-top:50px;
 }
