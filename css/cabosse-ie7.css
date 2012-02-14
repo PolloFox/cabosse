@@ -2,16 +2,21 @@ div#body-container {
     margin-top:-20px;
     padding-top:18px;
 }
+h2 {
+    margin-top:0;
+}
 div.menu-elem-content:hover, div.menu-elem-content.selected {
     padding-bottom:10px;
 }
 div.blue-selector {
     margin-top:-20px;
 }
+/* Correct h1*/
 div#main-content h1 {
     padding:10px 0 0 55px;
     margin-bottom:8px;
 }
+/*Correct left-menu*/
 div.left-menu {
     margin-top:-8px;
 }
@@ -20,9 +25,13 @@ ul {
     list-style-type:disc;
     list-style-position: inside;
 }
+div.left-menu ul {
+    margin-left:20px;
+}
 div.main-content-subject {
     margin:4px 0 0 15px;
-    height:404px;
+    min-height:404px;
+    padding-bottom:15px;
 }
 div#gallery-container {
     padding-top:4px;
@@ -36,6 +45,12 @@ ul.thumbs {
 div#informations div
 {
     width:17.45em;
+}
+div#informations div#practical-informations {
+    width:16.2em;
+}
+div#logo {
+    padding-top:8px;
 }
 div#logo-sub-name {
     margin-top:68px;

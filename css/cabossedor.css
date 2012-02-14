@@ -2,6 +2,10 @@ body {
     background-color: #937b71;
     font-family: 'Gudea', Verdana, sans-serif;
 }
+h2 {
+    font-size:12pt;
+    margin:15px 0 0 0;
+}
 p {
     font-size:10.5pt;
 }
@@ -43,7 +47,7 @@ ul.thumbs li.selected img, ul.thumbs li:hover img {
 }
 div#body-container {
     width:950px;
-    height:588px;
+    height:624px;
     margin:auto;
     margin-top:-8px;
     padding-top:9px;
@@ -66,7 +70,7 @@ div.menu-elem {
     float:left;
     border-right:2px dashed #323D44;
     text-align:center;
-    font-size:0.95em;
+    font-size:12pt;
 }
 div.menu-elem, div.menu-elem-content {
     height:74px;
@@ -77,12 +81,12 @@ div.menu-elem-content:hover a, div.menu-elem-content.selected a {
 }
 div.menu-elem-selector {
     position:absolute;
-    width:86px;
+    width:94px;
     margin-top:-10px;
 }
 div.menu-elem-selector.canada {
     position:absolute;
-    width:50px;
+    width:54px;
 }
 div.menu-elem-selector.contact {
     position:absolute;
@@ -95,10 +99,10 @@ div.menu-elem-content:hover div.menu-elem-text, div.menu-elem-content.selected d
     padding-top:44px;
 }
 div.white-selector {
-    font-size:1.2em;
+    font-size:14pt;
 }
 div.blue-selector {
-    font-size:0.95em;
+    font-size:11.5pt;
     color:#0B828A;
     margin-top:-23px;
     text-align:center;
@@ -107,7 +111,7 @@ div#main-content {
     margin-top:9px;
     margin-bottom:19px;
     background-color:#A9958D;
-    height:486px;
+    min-height:486px;
     width:662px;
     color:#37262D;
     float:left;
@@ -124,7 +128,7 @@ div#main-content hr {
     color:#0099A1;
     background-color:#0099A1;
     border:0;
-    margin:0;
+    margin:0 0 0 125px;
 }
 div#main-content div {
     float:left;
@@ -133,44 +137,42 @@ div.left-menu {
     background-color:#0099A1;
     width:120px;
     padding:2px 6px 2px 0px;
-    font-size:0.85em;
-}
-div.left-menu.no-menu {
-   visibility:hidden;
+    font-size:10.5pt;
+    margin-top:-1px;
 }
 div.main-content-subject {
     margin:-1px 0 0 15px;
     padding-right:15px;
     width:506px;
-    height:430px;
-    overflow:hidden;
-}
-div.main-content-subject.history p {
-    margin-top:3px;
-    margin-bottom:3px;
-    font-size:0.8em;
-}
-div.main-content-subject.history p:first-child {
-    font-size:1em;
-    font-weight:bold;
+    min-height:430px;
+    overflow-x:hidden;
 }
 div#gallery-container {
     padding-top:15px;
-    overflow:hidden;
+    overflow-x:hidden;
 }
 div#slideshow {
     margin-left:-4px;
 }
 div#caption {
     height:260px;
-    padding:0 3px 0 3px;
+    padding:0 5px 0 5px;
     overflow:hidden;
     background-color:#DCD9D7;
     font-size:10pt;
+    margin-left:4px;
 }
 div.image-title {
     font-weight:bold;
     margin-bottom:4px;
+}
+div#caption, div.image-title {
+    width:103px;
+}
+div.caption {
+/*    position:absolute;
+    bottom:0;*/
+    /* Aligner bas */
 }
 div#slideshow a img {
     border:0;
@@ -185,19 +187,11 @@ div#thumbs ul {
 div#gallery-container, div#thumbs {
     width:510px;
 }
-div#caption, div.image-title {
-    width:111px;
-}
-div.caption {
-/*    position:absolute;
-    bottom:0;*/
-    /* Aligner bas */
-}
 div#informations {
     float:left;
     width:278px;
-    height:597px;
-    overflow:hidden;
+    min-height:597px;
+    overflow-x:hidden;
     margin:-84px 0 0 10px;
 }
 div#informations div {
@@ -231,7 +225,7 @@ div#practical-informations p, div#sub-name p {
 div#logo {
     position:absolute;
     margin-top:-9px;
-    padding-top:9px;
+    padding-top:8px;
     margin-left:596px;
     width:354px;
     height:148px;
@@ -241,7 +235,7 @@ div#logo {
 div#logo p {
     padding:1px 0 1px 5px;
     background-color:white;
-    font-size:0.75em;
+    font-size:9pt;
     font-weight:bold;
     letter-spacing:3pt;
 }
@@ -253,7 +247,7 @@ div.links {
 }
 div.links ul li {
     display:inline;
-    font-size:0.75em;
+    font-size:9pt;
     margin-right:3px;
     color:white;
 }
@@ -264,7 +258,19 @@ div.links a {
 div.links a:hover {
     color:white;
 }
+div.link-list ul li {
+    font-size:10pt;
+}
+div.link-list ul li:first-child {
+    margin-top:15px;
+}
+div.link-list ul li a:hover {
+    color:white;
+}
 div#logo-sub-name {
     width:240px;
     margin-top:50px;
+}
+a.mail:hover {
+    text-decoration:underline;
 }

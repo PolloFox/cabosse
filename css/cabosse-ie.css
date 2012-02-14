@@ -1,8 +1,11 @@
+div#main-content hr {
+    margin:0 0 0 124px;
+}
 div.left-menu {
     padding-right:4px;
 }
 div.main-content-subject {
-    height:431px;
+    min-height:431px;
 }
 div#thumbs li img {
     margin-top:0.5em;
