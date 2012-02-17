@@ -1,6 +1,8 @@
 body {
-    background-color: #937b71;
+    background-color:#937b71;
     font-family: 'Gudea', Verdana, sans-serif;
+    margin-left:0;
+    margin-right:0;
 }
 h2 {
     font-size:12pt;
@@ -161,6 +163,7 @@ div#caption {
     background-color:#DCD9D7;
     font-size:10pt;
     margin-left:4px;
+    position:relative
 }
 div.image-title {
     font-weight:bold;
@@ -170,9 +173,10 @@ div#caption, div.image-title {
     width:103px;
 }
 div.caption {
-/*    position:absolute;
-    bottom:0;*/
-    /* Aligner bas */
+    position:absolute;
+    bottom:0;
+    padding:0 5px 5px 0;
+    word-wrap:break-word;
 }
 div#slideshow a img {
     border:0;
@@ -273,4 +277,55 @@ div#logo-sub-name {
 }
 a.mail:hover {
     text-decoration:underline;
+}
+div#home {
+    background-color:#37262D;
+    height:355px;
+    margin:210px 0 0 0
+}
+div#home-centered {
+    position:relative;
+    width:884px;
+    height:355px;
+    margin:auto;
+    background-color:#937b71;
+    overflow:hidden;
+}
+div.home-adresses {
+    position:absolute;
+    width:444px;
+    height:355px;
+    margin-left:-12px;
+    background-color:#37262D;
+}
+div#belgique-background {
+    margin-left:450px;
+}
+div#turquoise-background {
+    position:absolute;
+    background-color:#0099A1;
+    height:88px;
+    width:100%;
+    margin-top:-355px;
+}
+div#white-background {
+    position:absolute;
+    background-color:white;
+    height:32px;
+    width:100%;
+    margin-top:-261px;
+}
+div#home-logo {
+    position:relative;
+    width:952px;
+    height:452px;
+    margin:auto;
+    margin-top:-454px;
+    border:1px solid black;
+/*    background-color:white;
+    opacity:0.4;*/
+}
+div#home-logo div {
+    float:left;
+    position:relative;
 }

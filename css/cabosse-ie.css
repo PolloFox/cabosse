@@ -7,6 +7,9 @@ div.left-menu {
 div.main-content-subject {
     min-height:431px;
 }
+div#thumbs {
+    margin-top:-9px;
+}
 div#thumbs li img {
     margin-top:0.5em;
 }

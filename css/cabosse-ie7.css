@@ -55,3 +55,6 @@ div#logo {
 div#logo-sub-name {
     margin-top:68px;
 }
+div.caption {
+    padding:0 5px 5px 0;
+}
