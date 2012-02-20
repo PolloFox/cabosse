@@ -53,8 +53,17 @@ div#logo {
     padding-top:8px;
 }
 div#logo-sub-name {
-    margin-top:68px;
+    margin-top:69px;
 }
 div.caption {
     padding:0 5px 5px 0;
+}
+div#caledonie-foreground {
+    padding-left:174px;
+}
+div#caledonie-foreground ul {
+    margin-right:-18px;
+}
+div#home-logo div#belgium-foreground ul {
+    margin-left:0;
 }

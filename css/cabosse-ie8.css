@@ -26,6 +26,15 @@ div#logo p {
     font-size:8pt;
     letter-spacing:2pt;
 }
+div#logo-sub-name {
+    margin-top:49px;
+}
 div.links ul li {
     font-size:8pt;
+}
+div.home-adresses {
+    background-color:#37262D !important;
+}
+div#caledonie-foreground {
+    padding-left:150px;
 }
