@@ -35,6 +35,7 @@ ul.thumbs {
 }
 ul.thumbs li {
     display:inline;
+    padding-right:4px;
 }
 ul.thumbs li img {
     border:2px solid #37262D;
@@ -191,6 +192,12 @@ div#thumbs ul {
 div#gallery-container, div#thumbs {
     width:510px;
 }
+div#thumbs {
+   width:360px; 
+}
+ul.thumbs {
+    padding-left:42px !important;
+}
 div#informations {
     float:left;
     width:278px;
@@ -321,7 +328,6 @@ div#home-logo {
     height:452px;
     margin:auto;
     margin-top:-237px;
-/*    border:1px solid black;*/
     background:url('/images/home_logo_new.png') top right no-repeat;
 }
 div#home-logo div {
